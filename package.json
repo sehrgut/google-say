@@ -1,0 +1,34 @@
+{
+  "name": "google-say",
+  "version": "0.0.1",
+  "description": "Determines what Google thinks of things.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.googlism.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sehrgut/google-say.git"
+  },
+  "keywords": [
+    "google",
+    "nlp"
+  ],
+  "author": "Keith Beckman <kbeckman@becknet.com>",
+  "license": "BSD",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "domelementtype": "1.1.x",
+    "domutils": "1.1.x",
+    "google": "0.3.x",
+    "htmlparser2": "3.1.x",
+    "sentence": "git+https://github.com/sehrgut/node-sentence.git",
+    "request": "2.12.x"
+  },
+  "gitHead": "0448667f84a6963328c473c0b101a635e3464fc3"
+}
